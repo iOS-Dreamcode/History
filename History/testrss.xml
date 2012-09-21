@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:tdih="http://www.history.com/">
+ 	<channel>
+  		<title>History.com - This Day in History - Lead Story</title>
+  		<link>http://www.history.com/this-day-in-history</link>
+  		<description>This Day in History content from History.com for Lead Story</description>
+  		<pubDate>Sat, 08 Sep 2012 00:00:00 EDT</pubDate>
+  		<ttl>60</ttl>
+  		<item>
+ 			<title>September 8, 1974: Ford pardons Nixon</title>
+  			<link>http://www.history.com/this-day-in-history/ford-pardons-nixon </link>
+  			<description>&lt;p&gt;In a controversial executive action, President Gerald Ford pardons his disgraced predecessor Richard Nixon for any crimes he may have committed or participated in while in office. Ford later defended this action before the House Judiciary Committee, explaining that he wanted to end the national divisions created by the Watergate scandal.&lt;/p&gt;
+                &lt;p&gt;The Watergate scandal erupted after it was revealed that Nixon and his aides had engaged in illegal activities during his reelection campaign--and then attempted to cover up evidence of wrongdoing. With impeachment proceedings underway against him in Congress, Nixon bowed to public pressure and became the first American president to resign. At noon on August 9, Nixon officially ended his term, departing with his family in a helicopter from the White House lawn. Minutes later, Vice President Gerald R. Ford was sworn in as the 38th president of the United States in the East Room of the White House. After taking the oath of office, President Ford spoke to the nation in a television address, declaring, &quot;My fellow Americans, our long national nightmare is over.&quot;&lt;/p&gt;
+                &lt;p&gt;Ford, the first president who came to the office through appointment rather than election, had replaced Spiro Agnew as vice president only eight months before. In a political scandal independent of the Nixon administration&apos;s wrongdoings in the Watergate affair, Agnew had been forced to resign in disgrace after he was charged with income tax evasion and political corruption. Exactly one month after Nixon announced his resignation, Ford issued the former president a &quot;full, free and absolute&quot; pardon for any crimes he committed while in office. The pardon was widely condemned at the time.&lt;/p&gt;
+                &lt;p&gt;Decades later, the John F. Kennedy Library Foundation presented its 2001 Profile in Courage Award to Gerald Ford for his 1974 pardon of Nixon. In pardoning Nixon, said the foundation, Ford placed his love of country ahead of his own political future and brought needed closure to the divisive Watergate affair. Ford left politics after losing the 1976 presidential election to Democrat Jimmy Carter.  Ford died on December 26, 2006, at the age of 93.&lt;/p&gt;</description>
+  			<pubDate>Sat, 08 Sep 2012 00:00:00 EDT</pubDate>
+            <tdih:eventDate>September 8, 1974</tdih:eventDate>
+  		</item>
+        
+  	</channel>
+</rss>

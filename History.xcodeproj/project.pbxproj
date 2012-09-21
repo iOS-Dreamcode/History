@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340A357F1603CF7500444F15 /* navbarbkg_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 340A357E1603CF7500444F15 /* navbarbkg_retina.png */; };
+		340A35871603D2E400444F15 /* abouticon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 340A35841603D2E400444F15 /* abouticon_retina.png */; };
+		340A35881603D2E400444F15 /* favsicon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 340A35851603D2E400444F15 /* favsicon_retina.png */; };
+		340A35891603D2E400444F15 /* todayicon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 340A35861603D2E400444F15 /* todayicon_retina.png */; };
+		342660E9156A54D800489745 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342660E8156A54D800489745 /* UIKit.framework */; };
+		342660EB156A54D800489745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342660EA156A54D800489745 /* Foundation.framework */; };
+		342660ED156A54D800489745 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342660EC156A54D800489745 /* CoreGraphics.framework */; };
+		342660F3156A54D800489745 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 342660F1156A54D800489745 /* InfoPlist.strings */; };
+		342660F5156A54D800489745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342660F4156A54D800489745 /* main.m */; };
+		342660F9156A54D800489745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 342660F8156A54D800489745 /* AppDelegate.m */; };
+		3426610C156A567500489745 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426610B156A567500489745 /* HistoryViewController.m */; };
+		3426610F156B941300489745 /* HistoryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426610E156B941300489745 /* HistoryEngine.m */; };
+		3426611C156BD6E900489745 /* HistoryConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3426611B156BD6E800489745 /* HistoryConstants.m */; };
+		3436370E16077EE200C57F21 /* viewbkg_retina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3436370D16077EE200C57F21 /* viewbkg_retina.jpg */; };
+		343D92E115FE653A00D17DA7 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343D92E015FE653A00D17DA7 /* FavoriteViewController.m */; };
+		347F63F5156F8AD900E36671 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F63F4156F8AD900E36671 /* FavoritesViewController.m */; };
+		347F63F7156F8AF000E36671 /* FavoritesView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F63F6156F8AF000E36671 /* FavoritesView_iPhone.xib */; };
+		347F63FD15716FBC00E36671 /* HistoryInfoView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F63FC15716FBC00E36671 /* HistoryInfoView_iPhone.xib */; };
+		347F640815728DBD00E36671 /* HistoryUIProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F640715728DBD00E36671 /* HistoryUIProvider.m */; };
+		349AD12715F9242E0071B945 /* DCRSSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 349AD12015F9242E0071B945 /* DCRSSManager.m */; };
+		349AD12815F9242E0071B945 /* DCRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 349AD12215F9242E0071B945 /* DCRSSParser.m */; };
+		349AD12915F9242E0071B945 /* DCXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 349AD12415F9242E0071B945 /* DCXMLElement.m */; };
+		349AD12A15F9242E0071B945 /* DCXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 349AD12615F9242E0071B945 /* DCXMLParser.m */; };
+		34A18AC015FA447400CA5AD1 /* HistoryMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A18ABF15FA447400CA5AD1 /* HistoryMediator.m */; };
+		34A18AC615FA6FDD00CA5AD1 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A18AC515FA6FDD00CA5AD1 /* AboutViewController.m */; };
+		34A18AC815FA728300CA5AD1 /* AboutView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A18AC715FA728300CA5AD1 /* AboutView_iPhone.xib */; };
+		34A18ACB15FB376700CA5AD1 /* UIView+DCLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A18ACA15FB376700CA5AD1 /* UIView+DCLayout.m */; };
+		34A18ACF15FBB76D00CA5AD1 /* testrss.xml in Resources */ = {isa = PBXBuildFile; fileRef = 34A18ACE15FBB76D00CA5AD1 /* testrss.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		340A357E1603CF7500444F15 /* navbarbkg_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbarbkg_retina.png; path = History/images/navbarbkg_retina.png; sourceTree = "<group>"; };
+		340A35841603D2E400444F15 /* abouticon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abouticon_retina.png; path = History/images/abouticon_retina.png; sourceTree = "<group>"; };
+		340A35851603D2E400444F15 /* favsicon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favsicon_retina.png; path = History/images/favsicon_retina.png; sourceTree = "<group>"; };
+		340A35861603D2E400444F15 /* todayicon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todayicon_retina.png; path = History/images/todayicon_retina.png; sourceTree = "<group>"; };
+		342660E4156A54D800489745 /* History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = History.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342660E8156A54D800489745 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		342660EA156A54D800489745 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		342660EC156A54D800489745 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		342660F0156A54D800489745 /* History-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "History-Info.plist"; sourceTree = "<group>"; };
+		342660F2156A54D800489745 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		342660F4156A54D800489745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		342660F6156A54D800489745 /* History-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "History-Prefix.pch"; sourceTree = "<group>"; };
+		342660F7156A54D800489745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		342660F8156A54D800489745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3426610A156A567500489745 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		3426610B156A567500489745 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		3426610D156B941300489745 /* HistoryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryEngine.h; sourceTree = "<group>"; };
+		3426610E156B941300489745 /* HistoryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryEngine.m; sourceTree = "<group>"; };
+		3426611A156BD6E800489745 /* HistoryConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryConstants.h; sourceTree = "<group>"; };
+		3426611B156BD6E800489745 /* HistoryConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryConstants.m; sourceTree = "<group>"; };
+		3436370D16077EE200C57F21 /* viewbkg_retina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = viewbkg_retina.jpg; path = History/images/viewbkg_retina.jpg; sourceTree = "<group>"; };
+		343D92DF15FE653A00D17DA7 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		343D92E015FE653A00D17DA7 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		347F63F3156F8AD900E36671 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		347F63F4156F8AD900E36671 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		347F63F6156F8AF000E36671 /* FavoritesView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesView_iPhone.xib; sourceTree = "<group>"; };
+		347F63FC15716FBC00E36671 /* HistoryInfoView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryInfoView_iPhone.xib; sourceTree = "<group>"; };
+		347F640615728DBD00E36671 /* HistoryUIProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryUIProvider.h; sourceTree = "<group>"; };
+		347F640715728DBD00E36671 /* HistoryUIProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryUIProvider.m; sourceTree = "<group>"; };
+		349AD11F15F9242E0071B945 /* DCRSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCRSSManager.h; path = ../DCRSSManager/DCRSSManager/DCRSSManager.h; sourceTree = "<group>"; };
+		349AD12015F9242E0071B945 /* DCRSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCRSSManager.m; path = ../DCRSSManager/DCRSSManager/DCRSSManager.m; sourceTree = "<group>"; };
+		349AD12115F9242E0071B945 /* DCRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCRSSParser.h; path = ../DCRSSManager/DCRSSManager/DCRSSParser.h; sourceTree = "<group>"; };
+		349AD12215F9242E0071B945 /* DCRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCRSSParser.m; path = ../DCRSSManager/DCRSSManager/DCRSSParser.m; sourceTree = "<group>"; };
+		349AD12315F9242E0071B945 /* DCXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCXMLElement.h; path = ../DCRSSManager/DCRSSManager/DCXMLElement.h; sourceTree = "<group>"; };
+		349AD12415F9242E0071B945 /* DCXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCXMLElement.m; path = ../DCRSSManager/DCRSSManager/DCXMLElement.m; sourceTree = "<group>"; };
+		349AD12515F9242E0071B945 /* DCXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCXMLParser.h; path = ../DCRSSManager/DCRSSManager/DCXMLParser.h; sourceTree = "<group>"; };
+		349AD12615F9242E0071B945 /* DCXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCXMLParser.m; path = ../DCRSSManager/DCRSSManager/DCXMLParser.m; sourceTree = "<group>"; };
+		34A18ABE15FA447400CA5AD1 /* HistoryMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryMediator.h; sourceTree = "<group>"; };
+		34A18ABF15FA447400CA5AD1 /* HistoryMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryMediator.m; sourceTree = "<group>"; };
+		34A18AC115FA477D00CA5AD1 /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		34A18AC415FA6FDD00CA5AD1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		34A18AC515FA6FDD00CA5AD1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		34A18AC715FA728300CA5AD1 /* AboutView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView_iPhone.xib; sourceTree = "<group>"; };
+		34A18AC915FB376700CA5AD1 /* UIView+DCLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DCLayout.h"; path = "../categories/layout/UIView+DCLayout.h"; sourceTree = "<group>"; };
+		34A18ACA15FB376700CA5AD1 /* UIView+DCLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCLayout.m"; path = "../categories/layout/UIView+DCLayout.m"; sourceTree = "<group>"; };
+		34A18ACE15FBB76D00CA5AD1 /* testrss.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testrss.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342660E1156A54D800489745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342660E9156A54D800489745 /* UIKit.framework in Frameworks */,
+				342660EB156A54D800489745 /* Foundation.framework in Frameworks */,
+				342660ED156A54D800489745 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342660D9156A54D800489745 = {
+			isa = PBXGroup;
+			children = (
+				34A18AD015FBC61900CA5AD1 /* images */,
+				349AD12B15F924360071B945 /* DCRSSManager */,
+				342660EF156A54D800489745 /* Supporting Files */,
+				342660EE156A54D800489745 /* History */,
+				342660E7156A54D800489745 /* Frameworks */,
+				342660E5156A54D800489745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		342660E5156A54D800489745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342660E4156A54D800489745 /* History.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342660E7156A54D800489745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				342660E8156A54D800489745 /* UIKit.framework */,
+				342660EA156A54D800489745 /* Foundation.framework */,
+				342660EC156A54D800489745 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		342660EE156A54D800489745 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				342660F7156A54D800489745 /* AppDelegate.h */,
+				342660F8156A54D800489745 /* AppDelegate.m */,
+				3426610A156A567500489745 /* HistoryViewController.h */,
+				3426610B156A567500489745 /* HistoryViewController.m */,
+				3426610D156B941300489745 /* HistoryEngine.h */,
+				3426610E156B941300489745 /* HistoryEngine.m */,
+				3426611A156BD6E800489745 /* HistoryConstants.h */,
+				3426611B156BD6E800489745 /* HistoryConstants.m */,
+				347F63F3156F8AD900E36671 /* FavoritesViewController.h */,
+				347F63F4156F8AD900E36671 /* FavoritesViewController.m */,
+				347F63F6156F8AF000E36671 /* FavoritesView_iPhone.xib */,
+				347F63FC15716FBC00E36671 /* HistoryInfoView_iPhone.xib */,
+				347F640615728DBD00E36671 /* HistoryUIProvider.h */,
+				347F640715728DBD00E36671 /* HistoryUIProvider.m */,
+				34A18ABE15FA447400CA5AD1 /* HistoryMediator.h */,
+				34A18ABF15FA447400CA5AD1 /* HistoryMediator.m */,
+				34A18AC115FA477D00CA5AD1 /* History.h */,
+				34A18AC415FA6FDD00CA5AD1 /* AboutViewController.h */,
+				34A18AC515FA6FDD00CA5AD1 /* AboutViewController.m */,
+				34A18AC715FA728300CA5AD1 /* AboutView_iPhone.xib */,
+				343D92DF15FE653A00D17DA7 /* FavoriteViewController.h */,
+				343D92E015FE653A00D17DA7 /* FavoriteViewController.m */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		342660EF156A54D800489745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				342660F0156A54D800489745 /* History-Info.plist */,
+				342660F1156A54D800489745 /* InfoPlist.strings */,
+				342660F4156A54D800489745 /* main.m */,
+				342660F6156A54D800489745 /* History-Prefix.pch */,
+				34A18ACE15FBB76D00CA5AD1 /* testrss.xml */,
+			);
+			name = "Supporting Files";
+			path = History;
+			sourceTree = "<group>";
+		};
+		349AD12B15F924360071B945 /* DCRSSManager */ = {
+			isa = PBXGroup;
+			children = (
+				349AD11F15F9242E0071B945 /* DCRSSManager.h */,
+				349AD12015F9242E0071B945 /* DCRSSManager.m */,
+				349AD12115F9242E0071B945 /* DCRSSParser.h */,
+				349AD12215F9242E0071B945 /* DCRSSParser.m */,
+				349AD12315F9242E0071B945 /* DCXMLElement.h */,
+				349AD12415F9242E0071B945 /* DCXMLElement.m */,
+				349AD12515F9242E0071B945 /* DCXMLParser.h */,
+				349AD12615F9242E0071B945 /* DCXMLParser.m */,
+				34A18AC915FB376700CA5AD1 /* UIView+DCLayout.h */,
+				34A18ACA15FB376700CA5AD1 /* UIView+DCLayout.m */,
+			);
+			name = DCRSSManager;
+			sourceTree = "<group>";
+		};
+		34A18AD015FBC61900CA5AD1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				340A35841603D2E400444F15 /* abouticon_retina.png */,
+				340A35851603D2E400444F15 /* favsicon_retina.png */,
+				3436370D16077EE200C57F21 /* viewbkg_retina.jpg */,
+				340A35861603D2E400444F15 /* todayicon_retina.png */,
+				340A357E1603CF7500444F15 /* navbarbkg_retina.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342660E3156A54D800489745 /* History */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34266105156A54D800489745 /* Build configuration list for PBXNativeTarget "History" */;
+			buildPhases = (
+				342660E0156A54D800489745 /* Sources */,
+				342660E1156A54D800489745 /* Frameworks */,
+				342660E2156A54D800489745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = History;
+			productName = History;
+			productReference = 342660E4156A54D800489745 /* History.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342660DB156A54D800489745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 342660DE156A54D800489745 /* Build configuration list for PBXProject "History" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 342660D9156A54D800489745;
+			productRefGroup = 342660E5156A54D800489745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342660E3156A54D800489745 /* History */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342660E2156A54D800489745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342660F3156A54D800489745 /* InfoPlist.strings in Resources */,
+				347F63F7156F8AF000E36671 /* FavoritesView_iPhone.xib in Resources */,
+				347F63FD15716FBC00E36671 /* HistoryInfoView_iPhone.xib in Resources */,
+				34A18AC815FA728300CA5AD1 /* AboutView_iPhone.xib in Resources */,
+				34A18ACF15FBB76D00CA5AD1 /* testrss.xml in Resources */,
+				340A357F1603CF7500444F15 /* navbarbkg_retina.png in Resources */,
+				340A35871603D2E400444F15 /* abouticon_retina.png in Resources */,
+				340A35881603D2E400444F15 /* favsicon_retina.png in Resources */,
+				340A35891603D2E400444F15 /* todayicon_retina.png in Resources */,
+				3436370E16077EE200C57F21 /* viewbkg_retina.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342660E0156A54D800489745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342660F5156A54D800489745 /* main.m in Sources */,
+				342660F9156A54D800489745 /* AppDelegate.m in Sources */,
+				3426610C156A567500489745 /* HistoryViewController.m in Sources */,
+				3426610F156B941300489745 /* HistoryEngine.m in Sources */,
+				3426611C156BD6E900489745 /* HistoryConstants.m in Sources */,
+				347F63F5156F8AD900E36671 /* FavoritesViewController.m in Sources */,
+				347F640815728DBD00E36671 /* HistoryUIProvider.m in Sources */,
+				349AD12715F9242E0071B945 /* DCRSSManager.m in Sources */,
+				349AD12815F9242E0071B945 /* DCRSSParser.m in Sources */,
+				349AD12915F9242E0071B945 /* DCXMLElement.m in Sources */,
+				349AD12A15F9242E0071B945 /* DCXMLParser.m in Sources */,
+				34A18AC015FA447400CA5AD1 /* HistoryMediator.m in Sources */,
+				34A18AC615FA6FDD00CA5AD1 /* AboutViewController.m in Sources */,
+				34A18ACB15FB376700CA5AD1 /* UIView+DCLayout.m in Sources */,
+				343D92E115FE653A00D17DA7 /* FavoriteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		342660F1156A54D800489745 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342660F2156A54D800489745 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34266103156A54D800489745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34266104156A54D800489745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34266106156A54D800489745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "History/History-Prefix.pch";
+				INFOPLIST_FILE = "History/History-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34266107156A54D800489745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "History/History-Prefix.pch";
+				INFOPLIST_FILE = "History/History-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342660DE156A54D800489745 /* Build configuration list for PBXProject "History" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34266103156A54D800489745 /* Debug */,
+				34266104156A54D800489745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34266105156A54D800489745 /* Build configuration list for PBXNativeTarget "History" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34266106156A54D800489745 /* Debug */,
+				34266107156A54D800489745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342660DB156A54D800489745 /* Project object */;
+}
