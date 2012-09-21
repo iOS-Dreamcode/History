@@ -127,7 +127,7 @@ NSString* const HistoryEngineUpdateAvailableNotification = @"com.dc.history.toda
     NSData* offlinedata = [NSData dataWithContentsOfFile:path];
     [_rssMgr fetchAsync:offlinedata withTag:kHistoryTag];
 #else
-    [_rssMgr fetchAsync:[NSURL URLWithString:@"http://www.history.com/this-day-in-history/rss!"] withTag:kHistoryTag];
+    [_rssMgr fetchAsync:[NSURL URLWithString:@"http://www.history.com/this-day-in-history/rss"] withTag:kHistoryTag];
 #endif
 }
 
