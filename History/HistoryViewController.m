@@ -44,9 +44,20 @@ const int HISTORY_CONTENT_FONTSIZE = 15;
 }
 
 - (void)favoritesButtonSelected {
-    if(_historyInfo) {
-        [[HistoryMediator sharedMediator] addAsFavorite:_historyInfo];
-    }
+    UIImageView* animImg = [[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"favsicon_retina.png"]] autorelease];
+    animImg.center = self.view.center;
+    [self.view addSubview:animImg];
+    CGPoint newCenter = CGPointMake(animImg.center.x, self.view.frame.size.height);
+    [UIView animateWithDuration:1
+                          delay: 0
+                        options: UIViewAnimationOptionCurveEaseIn
+                     animations:^{
+                         animImg.center = newCenter;
+                     } completion:^(BOOL finished){
+                         [animImg removeFromSuperview];
+                         if(_historyInfo)
+                             [[HistoryMediator sharedMediator] addAsFavorite:_historyInfo];
+                     }];
 }
 
 - (UIActivityIndicatorView*) activityIndicator {
