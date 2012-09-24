@@ -82,6 +82,7 @@ NSString* const HistoryEngineUpdateAvailableNotification = @"com.dc.history.toda
 }
 
 - (NSArray*) favFileNames {
+    // TODO: return files sorted by creation date.
     if(_invalidateFavsCache) {
         NSFileManager* fm = [NSFileManager defaultManager];
         self.favFileNames = [fm contentsOfDirectoryAtPath:[self favoritesPath] error:nil];
